@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +7,7 @@
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 :focus, :active {
@@ -26,11 +27,11 @@ html, body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 input, button, textarea {
@@ -69,4 +70,28 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+:root {
+	--index: calc(1vw + 1vh);
+}
+
+h1{
+    font-size: calc(var(--index) * 3.8);
+    
+}
+h2{
+    font-size: calc(var(--index) * 2.8);
+    margin-top: calc(var(--index) * 1.8);
+}
+.link {
+    display: block;
+    font-size: calc(var(--index) * 2);
+    margin-top: calc(var(--index) * 0.8);
+    line-height: calc(var(--index) * 2.2);
 }
