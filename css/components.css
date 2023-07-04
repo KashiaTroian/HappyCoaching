@@ -1,0 +1,15 @@
+/*
+$fonts: 'Inter';
+$fontsColor: #000;
+color: $fontsColor;
+
+font: {
+    family: ;
+    size: ;
+    weight: ;
+}
+*/
+.header__container {
+  min-height: 30px;
+  background-color: blackgit;
+}
