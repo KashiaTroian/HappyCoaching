@@ -9,7 +9,8 @@ font: {
     weight: ;
 }
 */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
 .header__container {
   min-height: 30px;
-  background-color: blackgit;
+  background-color: black;
 }
