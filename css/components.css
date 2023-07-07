@@ -10,7 +10,6 @@ font: {
     weight: 400;
 }
 */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
 .header__container {
   min-height: 60px;
   background-color: #FFFFFF;
