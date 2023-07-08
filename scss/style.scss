@@ -126,6 +126,12 @@ font-weight: 800;
 line-height: 44px;
 letter-spacing: -0.72px;
 }
+/* меньше чем 660px*/
+@media ( max-width: 660px) {
+  h3{
+    font-size: 30px;
+  }
+}
 h4{
   color: #333461;
 font-size: 20px;
@@ -133,6 +139,11 @@ font-family: 'Kumbh Sans', sans-serif;
 font-style: normal;
 font-weight: 700;
 line-height: 24px;
+}
+@media ( max-width: 660px) {
+  h4{
+    font-size: 18px;
+  }
 }
 p {
   color: #4A556C;
@@ -153,6 +164,16 @@ letter-spacing: -0.3px;
 .section__container{
   padding: 96px 0;
 }
+/* меньше чем 860px*/
+@media ( max-width: 860px) {
+  .section__container{
+    padding: 56px 0;
+  }
+}
+@media (max-width: 660px){
+.section__container {
+    padding: 40px 0;
+}}
 $color: #20AD96;
 
 /* -------------------------------------------------------------*/

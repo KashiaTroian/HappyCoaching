@@ -14,6 +14,17 @@ font: {
   padding: 96px 0;
 }
 
+/* меньше чем 860px*/
+@media (max-width: 860px) {
+  .section__container {
+    padding: 56px 0;
+  }
+}
+@media (max-width: 660px) {
+  .section__container {
+    padding: 40px 0;
+  }
+}
 .header__container {
   min-height: 60px;
   background-color: #FFFFFF;
@@ -348,11 +359,11 @@ body._touch .menu__list > li._active .menu__arrow {
   margin-bottom: 20px;
 }
 
-.features__subtitle, .featuser__text {
+.features__subtitle, .features__text {
   color: rgba(74, 85, 108, 0.7);
 }
 
-.featuser__text {
+.features__text {
   font-size: 20px;
   line-height: 30px;
 }
@@ -362,42 +373,10 @@ body._touch .menu__list > li._active .menu__arrow {
   display: grid;
   -ms-grid-columns: 1fr 32px 1fr 32px 1fr;
   grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: 1fr 64px 1fr;
-  grid-template-rows: repeat(2, 1fr);
   grid-gap: 64px 32px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.features__list > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-
-.features__list > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-}
-
-.features__list > *:nth-child(3) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
-}
-
-.features__list > *:nth-child(4) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-}
-
-.features__list > *:nth-child(5) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-}
-
-.features__list > *:nth-child(6) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 5;
 }
 
 .features-item__img {
@@ -420,4 +399,50 @@ body._touch .menu__list > li._active .menu__arrow {
 
 .features-item__title {
   margin-bottom: 8px;
+}
+
+/* меньше чем 860px*/
+@media (max-width: 860px) {
+  .features__head {
+    margin-bottom: 44px;
+  }
+
+  .features__list {
+    -ms-grid-columns: 1fr 32px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 52px 32px;
+  }
+}
+@media (max-width: 660px) {
+  .features__text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 530px) {
+  .features__list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 52px 32px;
+  }
+
+  .features__title {
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+
+  .features__head {
+    margin-bottom: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .features__text {
+    font-size: 16px;
+  }
+
+  .features__list {
+    grid-gap: 36px 32px;
+  }
 }
