@@ -57,11 +57,21 @@ margin-bottom: 16px;
 @media ( max-width: 600px) {
     .footer__top{
         flex-direction: column;
+        padding: 46px 0;
     }
     .footer-top__about{
         align-self: center;
     }
     .footer__bottom{
         flex-direction: column-reverse;
+    }
+    .footer__navigation{
+        gap: 46px;
+    }
+}
+@media ( max-width: 360px){
+    .footer__link {
+        font-size: 16px;
+        line-height: 38px;
     }
 }

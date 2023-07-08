@@ -497,6 +497,7 @@ body._touch .menu__list > li._active .menu__arrow {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 46px 0;
   }
 
   .footer-top__about {
@@ -510,5 +511,15 @@ body._touch .menu__list > li._active .menu__arrow {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+
+  .footer__navigation {
+    gap: 46px;
+  }
+}
+@media (max-width: 360px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 38px;
   }
 }
