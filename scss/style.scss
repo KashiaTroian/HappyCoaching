@@ -109,6 +109,27 @@ font-weight: 800;
 line-height: 120%;
 letter-spacing: -0.72px;
 }
+@media ( max-width: 1000px) {
+  h1{
+    font-size: 64px;
+  }
+}
+@media ( max-width: 840px) {
+  h1{
+    font-size: 54px;
+  }
+}
+@media ( max-width: 600px) {
+  h1{
+    font-size: 48px;
+  }
+}
+@media ( max-width: 400px) {
+  h1{
+    font-size: 42px;
+  }
+}
+
 h2 {
   color: #333461;
 font-size: 48px;
@@ -183,3 +204,5 @@ $color: #20AD96;
 @import "footer"; 
 
 @import "features";
+
+@import "hero";
