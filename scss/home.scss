@@ -1,0 +1,28 @@
+.introduction{
+    padding: 96px 0 61px 0;
+}
+.introduction__top{
+    display: flex;
+    gap: 74px;
+}
+.intoduction__top-title{
+    max-width: 492px;
+}
+.itroduction__top-info{
+    max-width: 468px;
+}
+.introduction__bottom{
+    display: flex;
+}
+.introduction__item{
+    padding: 40px;
+    &-img{
+        width: 72px;
+        height: 72px;
+        margin-bottom: 32px;
+    }
+    &-title{
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+}

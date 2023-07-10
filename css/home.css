@@ -1,0 +1,37 @@
+.introduction {
+  padding: 96px 0 61px 0;
+}
+
+.introduction__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 74px;
+}
+
+.intoduction__top-title {
+  max-width: 492px;
+}
+
+.itroduction__top-info {
+  max-width: 468px;
+}
+
+.introduction__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.introduction__item {
+  padding: 40px;
+}
+.introduction__item-img {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 32px;
+}
+.introduction__item-title {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
