@@ -1,0 +1,13 @@
+.hero {
+  padding-bottom: 60px;
+}
+
+.services__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__info {
+  margin-right: 0;
+}
