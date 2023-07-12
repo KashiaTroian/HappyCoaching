@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .hero {
   padding-bottom: 60px;
 }
@@ -97,4 +98,34 @@
   z-index: -1;
   top: calc(100% / 2 - 60px);
   left: calc(100% / 2 - 24px);
+}
+
+.services-features-bottom__img {
+  max-width: 560px;
+  width: 50%;
+  margin-left: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* меньше чем 720px*/
+@media (max-width: 720px) {
+  .services-features {
+    padding: 46px 0;
+  }
+
+  .services-features__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .services-features-bottom__img {
+    margin: 0 auto;
+  }
+
+  .services-features__icon::before {
+    top: calc(100% / 2 - 50px);
+  }
 }
