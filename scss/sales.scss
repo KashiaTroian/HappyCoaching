@@ -62,6 +62,26 @@
 .perfect__item + .perfect__item{
     margin-top: 28px;
 }
+/* меньше чем 800px*/
+@media ( max-width: 800px){
+    .perfect__not, .perfect__yes{
+        padding: 44px;
+    }
+}
+/* меньше чем 680px*/
+@media ( max-width: 680px){
+    .perfect__not, .perfect__yes{
+        padding: 20px;
+    }
+}
+@media ( max-width: 520px){
+    .perfecr__wrapper{
+        flex-direction: column;
+    }
+    .perfect__wrapper-title {
+        margin-bottom: 36px;
+    }
+}
 
 
 .garantee__wrapper{
