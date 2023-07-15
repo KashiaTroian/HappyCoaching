@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .companis {
   padding: 96px 0;
 }
@@ -8,10 +9,38 @@
 }
 
 .companis__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.compani__logo {
+  max-height: 44px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 5px;
+}
+
+/* меньше чем 860px*/
+@media (max-width: 860px) {
+  .companis {
+    padding: 66px 0;
+  }
+
+  .companis__logo {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* меньше чем 520px*/
+@media (max-width: 520px) {
+  .companis {
+    padding: 44px 0;
+  }
+
+  .companis__logo {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
