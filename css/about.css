@@ -1,0 +1,17 @@
+.companis {
+  padding: 96px 0;
+}
+
+.companis__title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.companis__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
