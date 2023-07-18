@@ -83,6 +83,31 @@
     }
 }
 
+.transform{
+    padding: 96px 108px;
+    background: #FAF8F6;
+}
+.transform__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.transform__wrap{
+    max-width: 560px;
+}
+.transfotm__subtitle{
+    margin-bottom: 12px;
+}
+.transform__title{
+    margin-bottom: 20px;
+}
+.transform__item + .transform__item{
+    margin-top: 56px;
+}
+.transfotm__item-title{
+    margin-bottom: 8px;
+}
+
+
 
 .garantee__wrapper{
     padding: 80px 0;
