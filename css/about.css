@@ -44,3 +44,56 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.reviews {
+  padding: 120px 0;
+  background: #FAF8F6;
+}
+
+.reviews__title {
+  max-width: 530px;
+  margin-bottom: 38px;
+}
+
+.reviews__slider {
+  padding-left: 120px;
+}
+
+.reviews__slide {
+  background: #FFF;
+  padding: 48px;
+  max-width: 400px;
+  min-height: 412px;
+}
+
+.reviews__slide + .reviews__slide {
+  margin-left: 36px;
+}
+
+.slide__number {
+  color: #DBDEE6;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  /* 133.333% */
+  letter-spacing: -0.9px;
+  margin-bottom: 15px;
+}
+
+.slide__text {
+  color: #4A556C;
+  font-size: 24px;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: -0.72px;
+  margin-bottom: 15px;
+}
+
+.slide__name {
+  color: #333461;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: -0.72px;
+  margin-bottom: 15px;
+}
