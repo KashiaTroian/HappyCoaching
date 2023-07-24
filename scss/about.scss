@@ -47,7 +47,6 @@
     background: #FFF;
 
 padding: 48px;
-max-width: 400px;
 min-height: 412px;
   }
   .reviews__slide + .reviews__slide{
@@ -76,3 +75,17 @@ line-height: 32px; /* 133.333% */
 letter-spacing: -0.72px;
 margin-bottom: 15px;
   }
+/* меньше чем 600px*/
+@media ( max-width: 1000px) {
+  .reviews__slider{
+    padding-left: 24px;
+  }}
+/* меньше чем 600px*/
+@media ( max-width: 600px) {
+  .reviews__slider{
+    padding-left: 12px;
+  }
+.reviews__slide + .reviews__slide {
+  margin-left: 24px;
+}
+}
