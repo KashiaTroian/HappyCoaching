@@ -99,12 +99,20 @@
 
 /* меньше чем 600px*/
 @media (max-width: 1000px) {
+  .reviews {
+    padding: 96px 0;
+  }
+
   .reviews__slider {
     padding-left: 24px;
   }
 }
 /* меньше чем 600px*/
 @media (max-width: 600px) {
+  .reviews {
+    padding: 46px 0;
+  }
+
   .reviews__slider {
     padding-left: 12px;
   }
