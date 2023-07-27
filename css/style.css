@@ -189,12 +189,12 @@ h4 {
 /* меньше чем 1000px*/
 @media (max-width: 1000px) {
   h4 {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 @media (max-width: 660px) {
   h4 {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 p {
