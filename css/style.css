@@ -243,10 +243,12 @@ a {
 
 .faq__title {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .faq__subtitle {
   margin-bottom: 64px;
+  text-align: center;
 }
 
 .faq__wrapper {
@@ -370,11 +372,13 @@ a {
 
 .cta__title {
   max-width: 768px;
+  margin: 0 auto;
   margin-bottom: 8px;
 }
 
 .cta__text {
   max-width: 768px;
+  margin: 0 auto;
   margin-bottom: 32px;
 }
 
