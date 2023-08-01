@@ -408,6 +408,11 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin: 96px 0;
+  justify-items: stretch;
+}
+
+.session__info {
+  padding-left: 64px;
 }
 
 .second__title {
