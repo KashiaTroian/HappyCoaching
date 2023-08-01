@@ -407,6 +407,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 96px 0;
 }
 
 .second__title {
@@ -419,6 +420,11 @@ a {
 
 .session__btn {
   padding: 11px 54px;
+}
+
+.session__img {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 24px;
 }
 
 /* -------------------------------------------------------------*/
