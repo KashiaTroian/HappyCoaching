@@ -430,8 +430,39 @@ a {
 .session__img {
   border-top-left-radius: 10px;
   border-bottom-right-radius: 24px;
+  max-width: 500px;
 }
 
+@media (max-width: 966px) {
+  .session__info {
+    padding-left: 0;
+  }
+}
+@media (max-width: 844px) {
+  .session {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .session__info {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .session__img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 660px) {
+  .session__img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .session__img {
+    max-width: 300px;
+  }
+}
 /* -------------------------------------------------------------*/
 .header__container {
   min-height: 60px;
